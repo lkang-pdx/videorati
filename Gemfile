@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.0.7'
 
 group :production do
   gem 'pg'
@@ -41,7 +41,11 @@ gem 'vuejs'
 gem 'yt', '~> 0.13.7'
 gem 'bootstrap-sass', '~> 3.3.0.1'
 gem 'autoprefixer-rails'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-oauth2', '~> 1.1.2'
 gem 'jquery-turbolinks'
 gem 'youtube_it', github: 'bodrovis/youtube_it'
 gem 'figaro'
+gem 'nokogiri', '~> 1.8.2'
+gem 'rails-html-sanitizer', '~> 1.0.4'
+gem 'loofah', '~> 2.2.1'
+gem 'rack', '~> 2.0'
