@@ -42,6 +42,7 @@ gem 'yt', '~> 0.13.7'
 gem 'bootstrap-sass', '~> 3.3.0.1'
 gem 'autoprefixer-rails'
 gem 'omniauth-oauth2'
+gem "omniauth", ">= 2.0.0"
 gem 'jquery-turbolinks'
 gem 'youtube_it', github: 'bodrovis/youtube_it'
 gem 'figaro'
